@@ -1,0 +1,20 @@
+{
+    "name": "narada/test-package",
+    "description": "This is a test package",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Narada\\TestPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Narada Rathnasooriya"
+        }
+    ],
+    "minimum-stability": "dev"
+}
